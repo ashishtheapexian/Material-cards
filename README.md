@@ -1,5 +1,7 @@
 # Material-cards
-Material-cards
+
+
+<img src="https://raw.githubusercontent.com/ashishtheapexian/Material-cards/master/Preview.gif">
 
 <h4>Card Attributes</h4>
 
