@@ -1,0 +1,279 @@
+	.card .card-image{
+		overflow: hidden;
+		-webkit-transform-style: preserve-3d;
+		-moz-transform-style: preserve-3d;
+		-ms-transform-style: preserve-3d;
+		-o-transform-style: preserve-3d;
+		transform-style: preserve-3d;
+	}
+
+	.card .card-image img{
+		-webkit-transition: all 0.4s ease;
+		-moz-transition: all 0.4s ease;
+		-ms-transition: all 0.4s ease;
+		-o-transition: all 0.4s ease;
+		transition: all 0.4s ease;
+	}
+
+	.card .card-image:hover img{
+		-webkit-transform: scale(1.2) rotate(-7deg);
+		-moz-transform: scale(1.2) rotate(-7deg);
+		-ms-transform: scale(1.2) rotate(-7deg);
+		-o-transform: scale(1.2) rotate(-7deg);
+		transform: scale(1.2) rotate(-7deg);
+	}
+
+	.card{
+		font-family: 'Roboto', sans-serif; 
+		margin-top: 10px;
+		left: 2%;
+		width: 98%;
+		position: relative;
+		-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	  box-shadow: 4 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	}
+
+	.card-content {
+	cursor: pointer;
+	}
+	.card-title-wrap {
+	cursor: pointer;
+	} 
+	
+	.pull-right{
+		position:absolute;
+		right:2%;
+	}
+	.card .card-content {
+		padding: 10px;    
+	}
+
+	.card .card-content .card-title, .card-reveal .card-title{
+		font-size: 24px;
+		font-weight: 200;    
+	}
+.ashish_show_more_content {
+		/* padding: 10px; */
+		text-align:left !important;
+		border-top: 1px solid rgba(160, 160, 160, 0.2);
+
+}
+
+	.card .card-action{
+		padding-top: 6%;
+		padding-bottom: 6%;
+		padding-left: 3%;
+		padding-right: 2%;
+		border-top: 1px solid rgba(160, 160, 160, 0.2);
+		    overflow: auto;
+	}
+	.card .card-action a{
+		font-size: 15px;
+		color: #ffab40;
+		/* text-transform:uppercase; */
+		margin-right: 2%;    
+		-webkit-transition: color 0.3s ease;
+		-moz-transition: color 0.3s ease;
+		-o-transition: color 0.3s ease;
+		-ms-transition: color 0.3s ease;
+		transition: color 0.3s ease;
+	}
+	.card .card-action a:hover{    
+		color:#ffd8a6;
+		text-decoration:none;
+	}
+
+	.card .card-reveal{    
+		padding: 20px;
+		position: absolute;
+		background-color: #FFF;
+		width: 100%;
+		overflow-y: auto;
+		/*top: 0;*/
+		left:0;
+		bottom:0;
+		height: 100%;
+		z-index: 1;
+		display: none;    
+	}
+
+	.card .card-reveal p{
+		color: rgba(0, 0, 0, 0.71);
+		margin:10px ;
+		text-align:left !important;
+	}
+
+	.btn-custom{
+		background-color: transparent;
+		font-size:18px;
+	}
+	
+/* .columns{ */
+	/* float:left; */
+	/* margin-right: 2%; */
+/* } */
+
+/* External Css with few customizations From Flip card Plugin*/
+.apex-container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+@media (min-width: 768px) {
+  .apex-container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .apex-container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .apex-container {
+    width: 1170px;
+  }
+}
+
+.img-responsive{
+  display: block;
+  max-width: 100%;
+  min-height: 100%;
+  flex: 1;
+}
+
+.card-image{
+	display: flex
+}
+
+.apex-row{
+	 position: relative;
+    width: 100%;
+	box-sizing: border-box;	
+}
+
+
+
+@media only screen and (min-width: 33.75em) {
+
+    /* 540px */
+    .apex-container {
+        width: 98%;
+    }
+}
+
+@media only screen and (min-width: 60em) {
+
+    /* was 45em */
+    /* 720px */
+    .apex-c-col-1,
+    .apex-c-col-2,
+    .apex-c-col-3,
+    .apex-c-col-4,
+    .apex-c-col-5,
+    .apex-c-col-6 {
+        width: 46%;
+    }
+
+    .apex-c-col-7,
+    .apex-c-col-8,
+    .apex-c-col-9,
+    .apex-c-col-10,
+    .apex-c-col-11,
+    .apex-c-col-12 {
+        width: 96%;
+    }
+
+}
+
+@media only screen and (min-width: 66em) {
+
+    /* was 60em */
+    /* 960px */
+    .apex-c-container {
+        width: 98%;
+    }
+
+    .apex-c-col-1 {
+        width: 4.33%;
+    }
+
+    .apex-c-col-2 {
+        width: 12.66%;
+    }
+
+    .apex-c-col-3 {
+        width: 21%;
+    }
+
+    .apex-c-col-4 {
+        width: 29.33%;
+    }
+
+    .apex-c-col-5 {
+        width: 37.66%;
+    }
+
+    .apex-c-col-6 {
+        width: 46%;
+    }
+
+    .apex-c-col-7 {
+        width: 54.33%;
+    }
+
+    .apex-c-col-8 {
+        width: 62.66%;
+    }
+
+    .apex-c-col-9 {
+        width: 71%;
+    }
+
+    .apex-c-col-10 {
+        width: 79.33%;
+    }
+
+    .apex-c-col-11 {
+        width: 87.66%;
+    }
+
+    .apex-c-col-12 {
+        width: 96%;
+    }
+}
+.apex-row {
+    position: relative;
+    width: 100%;
+}
+
+.apex-row [class^=apex-c-col] {
+    float: left;
+    margin: .5rem 2%;
+    min-height: .125rem;
+}
+	
+/* Ripple Effect */
+.ripple {
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.4);
+  transform: scale(0);
+  position: absolute;
+  opacity: 1;
+}
+.rippleEffect {
+    animation: rippleDrop .6s linear;
+}
+
+@keyframes rippleDrop {
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
