@@ -1,7 +1,7 @@
 {
   "name" : "Material Cards Region plugin",
   "version" : "1.0",
-  "description" : "Oracle APEX Region Plugin to display material cards with two button at bottum. There are multiple configurations availble which can help to achive  more",
+  "description" : "Oracle APEX Region Plugin to display material cards with two buttons. There are multiple configurations availble which can help to achive  more",
   "keywords" : ["PlugIn", "Report","Material","Cards","column grid"],
   "homepage" : "https://github.com/ashishtheapexian/Material-cards.git",
   "bugs" : {
