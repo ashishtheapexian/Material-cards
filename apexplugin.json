@@ -1,7 +1,7 @@
 {
   "name" : "Material Cards Region plugin",
   "version" : "1.1",
-  "description" : "Oracle APEX Region Plugin to display material cards with two buttons. There are multiple configurations availble which can help to achive  more. CSS is refered from Ronny Weiß Flip cards Plugin",
+  "description" : "Oracle APEX Region Plugin to display material cards with two buttons. There are multiple configurations availble which can help to achive  more. Responsive grid CSS is refered from Ronny Weiß Flip cards Plugin",
   "keywords" : ["PlugIn", "Report","Material","Cards","column grid"],
   "homepage" : "https://github.com/ashishtheapexian/Material-cards/",
   "bugs" : {
