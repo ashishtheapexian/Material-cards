@@ -1,4 +1,4 @@
-# Material-cards
+# Material Cards Region plugin (1.0)
 
 
 <img src="https://raw.githubusercontent.com/ashishtheapexian/Material-cards/master/Preview.gif">
