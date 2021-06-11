@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/Plug--in_Type-Region-yellow.svg) ![](https://img.shields.io/badge/APEX-19.2-success.svg) ![](https://img.shields.io/badge/APEX-20.1-success.svg) ![](https://img.shields.io/badge/APEX-20.2-success.svg)
+![](https://img.shields.io/badge/Plug--in_Type-Region-yellow.svg) ![](https://img.shields.io/badge/APEX-19.2-success.svg) ![](https://img.shields.io/badge/APEX-20.1-success.svg) ![](https://img.shields.io/badge/APEX-20.2-success.svg) ![](https://img.shields.io/badge/APEX-21.1-success.svg)
 
 # Material Cards Region plugin (1.0)
 
@@ -7,36 +7,22 @@
 
 <h4>Card Attributes</h4>
 
-<b>#IMG_SRC#</b> Card image source url <br>
-e.g. https://raw.githubusercontent.com/ashishtheapexian/test/master/user.png <br><br>
-
-<b>#LINK_L#</b> Left button link source (src)<br>
-e.g. https://www.linkedin.com/in/ashish-sahay-the-apexian/ <br>
-javascript:alert('Hello world!')<br>
-<b>#LINK_R#</b> Right button link source (src)<br>
-e.g. https://www.linkedin.com/in/ashish-sahay-the-apexian/ <br>
-javascript:alert('Hello world!')<br>
-<b>#LINK_TEXT_L#</b> Left button Label text<br>
-<b>#LINK_BG_COLOR_L#</b> Left button background color <br>
-e.g. ff6e40, ffff00<br><br>
-
-<b>#LINK_BG_COLOR_R#</b> Right button background color<br>
-e.g. ff6e40, ffff00<br><br>
- 
-<b>#LINK_TEXT_R#</b> Right button Label text<br>
-<b>#LINK_ICON_POS_R#</b> Right button icon position <br>
-e.g. left, right<br><br>
-<b>#LINK_ICON_POS_L#</b> Left button icon position <br>
-e.g. left, right<br><br>
-<b>#LINK_ICON_L#</b> Left button icon<br>
-e.g. fa-check, fa-user<br><br>
-<b>#LINK_ICON_R#</b> Right button icon<br>
-e.g. fa-check, fa-user<br><br>
-<b>#REVEAL_CONTENT#</b> Card content After the fact (Text on flip card)<br>
-<b>#LINK_FONT_L#</b> Left button font color <br>
-e.g. ff6e40, ffff00<br><br>
-<b>#FONT_R#</b> Right button font color <br>
-e.g. ff6e40, ffff00<br><br>
+|Attribute| Description| Value |
+|----------|------------|-------|
+|#IMG_SRC#| Card image source url | e.g. https://raw.githubusercontent.com/ashishtheapexian/test/master/user.png|
+|#LINK_L#| Left button link source (src)|e.g. https://www.linkedin.com/in/ashish-sahay-the-apexian/ Or javascript:alert('Hello world!');|
+|#LINK_R#| Right button link source (src)|e.g. https://www.linkedin.com/in/ashish-sahay-the-apexian/ Or javascript:alert('Hello world!');|
+|#LINK_TEXT_L# | Left button Label text| Linked In|
+|#LINK_BG_COLOR_L#| Left button background color | e.g. ff6e40, ffff00 ||
+|#LINK_BG_COLOR_R#| Right button background color| e.g. ff6e40, ffff00|
+|#LINK_TEXT_R#| Right button Label text | |
+|#LINK_ICON_POS_R#| Right button icon position | e.g. left, right|
+|#LINK_ICON_POS_L#|Left button icon position| e.g. left, right |
+|#LINK_ICON_L#| Left button icon | e.g. fa-check, fa-user |
+|#LINK_ICON_R#| Right button icon | e.g. fa-check, fa-user |
+|#REVEAL_CONTENT# | Card content After the fact (Text on flip card)| |
+|#LINK_FONT_L#| Left button font color | e.g. ff6e40, ffff00 |
+|#FONT_R#| Right button font color | e.g. ff6e40, ffff00 |
 
 <h4>Sample query</h4>
 
@@ -86,7 +72,7 @@ ORDER BY 1;
 ```
 
 
-<a href ="https://apex.oracle.com/pls/apex/ashish_portfolio/r/93690/7?session=702224589747760"> <h4>Demo</h4></a>
+<a href ="https://apex.oracle.com/pls/apex/ashish_portfolio/r/93690/7"> <h4>Demo</h4></a>
 
-<a href="https://www.ashishsahay.com/2020/03/material-cards-region-plugin-10.html"><b>Blog</b> for details</a>
+<a href="https://blogs.ontoorsolutions.com/post/material-cards-region-plugin/"><b>Blog</b> for details</a>
 
